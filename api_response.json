@@ -1,0 +1,343 @@
+[
+{
+    "request": {
+       "url": "https://example.com/api/register",
+       "method": "POST",
+       "headers": {
+          "Content-Type": "application/json"
+       },
+       "body": {
+          "name": "Sam Fisher",
+          "email": "samfisher@gmail.com",
+          "password":123456
+       }
+    },
+    "status": "success",
+    "message": "User registration successful",
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiMGYzYzNkNzk0MGZhMTc1YmJlZWQwMmNlMDBiYzRiMmE2MzQ4ZGNlNThhOGFiNjRmNmYyZGY4OWVkZjkwMjRmOTI1MWYxZjU4OTNkZmVjYTQiLCJpYXQiOjE2ODM4MTY1MDAuNzc3NzM2LCJuYmYiOjE2ODM4MTY1MDAuNzc3NzM4LCJleHAiOjE3MTU0Mzg5MDAuNzcxMjg2LCJzdWIiOiI1Iiwic2NvcGVzIjpbXX0.hv9tU1xISIHJs6IlgO0fRuAEcRPbJ_b_Cn_ZrbRmYuvGY1WzrD2gVDlwHGIHhcvYo1f4fZ4UtY8-aqSYl-OYzS51zYqXXLgGnrMUDdQlCw8ZxpPaKk-jetQRvzJGVV4_XJDlo-hLhLkVlkhKwSfEtRJYYlaU3ac4wWQ64j3lOKltVKJN5o_Bm0O-zn_xS3V67gg5vOWlI0uTZV3qDJbEd57h4CR_juEcbx8hAKBookYfno_2oyZGCElJJyBEWKI64S3F6vzUgP3C6mHXlb9QVycDINd4LN2yWaF-2njldMRLHRNxNcRqWOI8txsMrkTEYuZW-khirnNzFt66PUaDeaDim0OTt-B9epvr13CT5IX2iTByjuYA4rROazJBjXbouQ6s0igPCOVtHCigmiJHopeaO-w9meFyiA4zDdMzIn8V6M8UYLhySjYgdqJrL7mVZqx7hAjTsVTklEagYFVVEL9T6xTBfA3pyAHBNzfKd-1Hwv5iMXSbPu28Uzo9tZy6HGRbFB7AsPwPWp9I46GK7HsIwocLcdG7CdFKl8qmqqMSrSqXM1J_MQ9yL3TzQDug9DBx_fm3XA8logEjnHm_8cZm0skQajIcslQTv4XcdJz-O2cyy-zm9Gu2XrCnCD-j5mag_1n59UfCtkPljzUIO1ttjz3dgDV7rZBjTqL5Yfc"
+},
+{
+    "request": {
+       "url": "https://example.com/api/login",
+       "method": "POST",
+       "headers": {
+          "Content-Type": "application/json"
+       },
+       "body": {
+          "name": "Sam Fisher",
+          "email": "samfisher@gmail.com",
+          "password":123456
+       }
+    },
+    "success": "success",
+  "message": "Login successful",
+  "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYjk1MjMwNGE0ZWY5YmZmZGE5ZjE5N2RjMTc5YjFiOWI4NTgyYzZjNmZiNjJjYzU2ZjkxZDVlZGI5MWQ3ZjI2MjA1MGY4ZTk3NWQ5Yzk2NDEiLCJpYXQiOjE2ODM4MTcwNTUuMTQ3OTc1LCJuYmYiOjE2ODM4MTcwNTUuMTQ3OTc3LCJleHAiOjE3MTU0Mzk0NTUuMTQxNjk4LCJzdWIiOiI1Iiwic2NvcGVzIjpbXX0.tmB9KhyD3ZEzXeaTkS5XNZbJ_GzXI-FhJHonvlRgf75oBJb1ikBIKc2T-RH7IXKERFwMhYK-H-VIgWXOJyTUe_YDHDSvFcN_vY2y-4XJYGFzYyophAG-dEMh0gFXdKUT-g46Qu8kaV8p1-_1QT9JnOnZbcLyhhyn0ViMdfai2VGmSbkKnhsh5EMURRoPlqF9LJKL6LBwVlBADgxUixRokUEyyRiI-TV27t-1fF9bD1jvgZkRkerXGh_8gfs8t8iP3hVH2kehO5vlT8Re-KJsZXKNileFUF4evtGwjoRE57go1gds8_YWzUg8KMyS9IRlAw9exPA6zJs16qm3H0knVMW-sTCJ8nC-R-jtLd2j3kPY5XKZvagdLKoSTf5_ZaDD_u2JS2RCF5upeYKu8FZaqXi_rVQ786BhAxWl1Apcq6leu0Zu35JlCmkqEnCRHaoR3jt068rZryVid3tdfHpQ33uEyiv1Rl9zEyrMAK9zR0sgNIIUDbwnDHRU1j5vuH_a7ZGy0dILpvH8bdAQaKlTZhvmaH5ssKwqfXaoj1wx1gUOCd9UEMrBP-h8Z_-1Apbif_w9D5W_XZml14-f_bStGzuGtKHKhFvtfXyL_rXJjneFJ97ahwr5UABtqFzrV5UHgpPfm_0O71RR2K2S6QnNiZP_Pmz4l4E3mLyhhMSxzes"
+},
+
+{
+    "request": {
+       "url": "http:localhost:8000/api/product",
+       "method": "GET",
+       "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "",
+            "Bearer":"<access_token>"
+       }
+    },
+    "id": 9,
+    "title": "Product 1",
+    "description": "",
+    "price": "0.00",
+    "user_id": 1,
+    "created_at": "2023-05-10T07:53:42.000000Z",
+    "updated_at": "2023-05-10T07:53:42.000000Z"
+  },
+  {
+    "id": 10,
+    "title": "Product 2",
+    "description": "",
+    "price": "0.00",
+    "user_id": 1,
+    "created_at": "2023-05-10T07:53:42.000000Z",
+    "updated_at": "2023-05-10T07:53:42.000000Z"
+  },
+  {
+    "id": 11,
+    "title": "Product 1",
+    "description": "",
+    "price": "0.00",
+    "user_id": 1,
+    "created_at": "2023-05-10T07:58:33.000000Z",
+    "updated_at": "2023-05-10T07:58:33.000000Z"
+  },
+  {
+    "id": 12,
+    "title": "Product 2",
+    "description": "",
+    "price": "0.00",
+    "user_id": 1,
+    "created_at": "2023-05-10T07:58:33.000000Z",
+    "updated_at": "2023-05-10T07:58:33.000000Z"
+  },
+  {
+    "id": 13,
+    "title": "apple",
+    "description": "",
+    "price": "0.00",
+    "user_id": 1,
+    "created_at": "2023-05-10T08:07:49.000000Z",
+    "updated_at": "2023-05-10T08:07:49.000000Z"
+  },
+  {
+    "id": 14,
+    "title": "pear",
+    "description": "",
+    "price": "123.00",
+    "user_id": 1,
+    "created_at": "2023-05-10T08:07:52.000000Z",
+    "updated_at": "2023-05-11T15:40:25.000000Z"
+  },
+  {
+    "id": 15,
+    "title": "apple",
+    "description": "",
+    "price": "123.00",
+    "user_id": 1,
+    "created_at": "2023-05-10T08:12:10.000000Z",
+    "updated_at": "2023-05-10T08:12:10.000000Z"
+  },
+  {
+    "id": 16,
+    "title": "pear",
+    "description": "",
+    "price": "123.00",
+    "user_id": 1,
+    "created_at": "2023-05-10T12:19:15.000000Z",
+    "updated_at": "2023-05-10T12:19:15.000000Z"
+  },
+  {
+    "id": 17,
+    "title": "pear",
+    "description": "",
+    "price": "123.00",
+    "user_id": 1,
+    "created_at": "2023-05-10T12:29:05.000000Z",
+    "updated_at": "2023-05-10T12:29:05.000000Z"
+  },
+  {
+    "id": 18,
+    "title": "pear",
+    "description": "",
+    "price": "123.00",
+    "user_id": 1,
+    "created_at": "2023-05-11T15:02:39.000000Z",
+    "updated_at": "2023-05-11T15:02:39.000000Z"
+  },
+  {
+    "id": 19,
+    "title": "pear",
+    "description": "",
+    "price": "123.00",
+    "user_id": 1,
+    "created_at": "2023-05-11T15:25:26.000000Z",
+    "updated_at": "2023-05-11T15:25:26.000000Z"
+  },
+  {
+    "id": 20,
+    "title": "pear",
+    "description": "",
+    "price": "123.00",
+    "user_id": 1,
+    "created_at": "2023-05-11T15:25:28.000000Z",
+    "updated_at": "2023-05-11T15:25:28.000000Z"
+  },
+  {
+    "id": 21,
+    "title": "pear",
+    "description": "",
+    "price": "123.00",
+    "user_id": 1,
+    "created_at": "2023-05-11T15:25:28.000000Z",
+    "updated_at": "2023-05-11T15:25:28.000000Z"
+  },
+  {
+    "id": 22,
+    "title": "pear",
+    "description": "",
+    "price": "123.00",
+    "user_id": 1,
+    "created_at": "2023-05-11T15:25:29.000000Z",
+    "updated_at": "2023-05-11T15:25:29.000000Z"
+  },
+  {
+    "id": 23,
+    "title": "pear",
+    "description": "",
+    "price": "123.00",
+    "user_id": 1,
+    "created_at": "2023-05-11T15:25:30.000000Z",
+    "updated_at": "2023-05-11T15:25:30.000000Z"
+  },
+
+{
+    "request": {
+       "url": "https://example.com/api/product",
+       "method": "POST",
+       "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "",
+            "Bearer":"<access_token>"
+       },
+       "body": {
+            "title": "pear",
+            "description": "purple",
+            "price":123
+       }
+    },
+        "success": true,
+        "message": "Product created successfully"
+},
+{
+    "request": {
+       "url": "https://localhost:8000/api/product/3",
+       "method": "DELETE",
+       "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "",
+            "Bearer":"<access_token>"
+       }
+    },
+    "success": true,
+    "message": "Product deleted sucessfully"
+},
+{
+    "request": {
+       "url": "https://localhost:8000/api/product/14",
+       "method": "PUT",
+       "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "",
+            "Bearer":"<access_token>"
+       },
+       "body": {
+            "title": "peanut",
+            "description": "green",
+            "price":124
+       }
+    },
+        "success": true,
+        "message": "Product updated sucessfully"
+},
+{
+    "request": {
+       "url": "http://localhost:8000/api/cart/add",
+       "method": "POST",
+       "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "",
+            "Bearer":"<access_token>"
+       },
+       "body": {
+            "product_id": 14,
+            "quantity": 2
+       }
+    },
+    "success": true,
+    "message": "Product added to cart"
+}
+,
+{
+    "request": {
+       "url": "http://localhost:8000/api/cart",
+       "method": "GET",
+       "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "",
+            "Bearer":"<access_token>"
+       }
+    },
+    
+        "success": true,
+        "items": [
+          {
+            "id": 4,
+            "created_at": "2023-05-10T12:19:55.000000Z",
+            "updated_at": "2023-05-10T12:19:57.000000Z",
+            "user_id": 1,
+            "product_id": 12,
+            "quantity": 6,
+            "product": {
+              "id": 12,
+              "title": "Product 2",
+              "description": "",
+              "price": "0.00",
+              "user_id": 1,
+              "created_at": "2023-05-10T07:58:33.000000Z",
+              "updated_at": "2023-05-10T07:58:33.000000Z"
+            }
+          },
+          {
+            "id": 5,
+            "created_at": "2023-05-10T12:21:08.000000Z",
+            "updated_at": "2023-05-11T15:44:14.000000Z",
+            "user_id": 1,
+            "product_id": 14,
+            "quantity": 8,
+            "product": {
+              "id": 14,
+              "title": "pear",
+              "description": "",
+              "price": "123.00",
+              "user_id": 1,
+              "created_at": "2023-05-10T08:07:52.000000Z",
+              "updated_at": "2023-05-11T15:40:25.000000Z"
+            }
+          }
+        ]
+      }
+      ,
+{
+    "request": {
+       "url": "https://localhost:8000/api/checkout",
+       "method": "POST",
+       "headers": {
+          "Content-Type": "application/json",
+          "Authorization": "",
+            "Bearer":"<access_token>"
+       }
+    },
+        "success": true,
+        "message": "Order placed successfully"
+},
+
+{
+    "request": {
+       "url": "http://localhost:8000/api/products/upload",
+       "method": "POST",
+       "headers": {
+          "Content-Type": "application/json"
+       },
+       "products": [
+        {
+            "title": "Product 1",
+            "description": "This is product 1",
+            "price": 10.99
+        },
+        {
+            "title": "Product 2",
+            "description": "This is product 2",
+            "price": 19.99
+        },
+        {
+            "title": "Product 3",
+            "description": "This is product 3",
+            "price": 7.99
+        }
+    ]
+    },
+    
+        "success": true,
+        "message": "Products uploaded successfully"
+      
+}
+]

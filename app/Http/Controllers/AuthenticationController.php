@@ -25,6 +25,8 @@ class AuthenticationController extends Controller
         $token=$user->createToken('auth_token')->accessToken;
 
         return response([
+            'success'=>true,
+            'message'=>'User registration successful',
             'token'=>$token
         ]);
 
@@ -35,6 +37,8 @@ class AuthenticationController extends Controller
             'email'=>'required',
             'password'=>'required'
         ]);
+
+
 
         $user=User::where('email',$request->email)->first();
 
@@ -47,6 +51,8 @@ class AuthenticationController extends Controller
         $token=$user->createToken('auth_token')->accessToken;
 
         return response([
+            'success'=>true,
+            'message'=>'Login successful',
             'token'=>$token
         ]);
 

@@ -105,12 +105,39 @@ class ProductController extends Controller
         ]);
 
         return response([
+            'success'=>true,
             'message'=>'Product updated sucessfully'
         ],201);
 
 
     }
-
+    public function uploadProducts(Request $request)
+    {
+        // validate the request data for multiple products
+        $request->validate([
+            'products' => 'required|array|min:1',
+            'products.*.title' => 'required|max:255',
+            'products.*.description' => 'required|max:255',
+            'products.*.price' => 'required|numeric'
+        ]);
+    
+        $user_id = $request->user()->id;
+    
+        // create each product
+        foreach ($request->input('products') as $productData) {
+            Product::create([
+                'title' => $productData['title'],
+                'description' => $productData['description'],
+                'price' => $productData['price'],
+                'user_id' => $user_id,
+            ]);
+        }
+    
+        return response([
+            'success' => true,
+            'message' => 'Products uploaded successfully'
+        ], 201);
+    }
     /**
      * Remove the specified resource from storage.
      *
@@ -122,6 +149,7 @@ class ProductController extends Controller
         $product=Product::where('id',$id)->delete();
 
         return response([
+            'success'=>true,
             'message'=>'Product deleted sucessfully'
         ],201);
     }
@@ -154,7 +182,10 @@ class ProductController extends Controller
         $cart_item->save();
     }
 
-    return response(['message' => 'Product added to cart'], 201);
+    return response([
+        'success' => true,
+        'message' => 'Product added to cart'
+    ], 201);
 }
 public function getCart(Request $request)
 {

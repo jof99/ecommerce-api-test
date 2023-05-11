@@ -25,6 +25,13 @@ Route::post('/register',[AuthenticationController::class,'register']);
 Route::post('/login',[AuthenticationController::class,'login']);
 Route::middleware('auth:api')->get('/cart', [ProductController::class, 'getCart']);
 Route::middleware('auth:api')->post('/checkout', [OrderController::class, 'checkout']);
+Route::middleware('auth:api')->put('/product/{id}', [ProductController::class, 'update']);
+Route::middleware('auth:api')->post('/products/upload', [ProductController::class, 'uploadProducts']);
+Route::middleware('auth:api')->get('/products', [ProductController::class, 'getProducts']);
+
+
+
+
 
 
 
