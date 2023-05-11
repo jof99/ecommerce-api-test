@@ -1,7 +1,7 @@
 [
 {
     "request": {
-       "url": "https://example.com/api/register",
+       "url": "http:localhost:8000/api/register",
        "method": "POST",
        "headers": {
           "Content-Type": "application/json"
@@ -18,7 +18,7 @@
 },
 {
     "request": {
-       "url": "https://example.com/api/login",
+       "url": "http:localhost:8000/api/login",
        "method": "POST",
        "headers": {
           "Content-Type": "application/json"
@@ -181,7 +181,7 @@
 
 {
     "request": {
-       "url": "https://example.com/api/product",
+       "url": "http:localhost:8000/api/product",
        "method": "POST",
        "headers": {
           "Content-Type": "application/json",
